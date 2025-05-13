@@ -1,0 +1,123 @@
+/* Estilo General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  height: 80px;   
+  width: auto;        
+  margin-right: 10px; 
+}
+
+.jumbotron {
+  background: #f0f0f0;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 250px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px; 
+  background-color: #eee; 
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.card h3 {
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  margin-top: 2px;
+}
+/* Estilo footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 30px;
+}
+
+.footer p {
+  margin: 0 0 10px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #aaa;
+}
+
+/* Buttons */
+.btn {
+  background: #0066ff;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  border: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+
